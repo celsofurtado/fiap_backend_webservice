@@ -8,8 +8,7 @@
 - Crie um banco de dados com o nome **db_fiap** no MySQL;
 - Edit o arquivo `applications.properties` e garanta que o **username** e **password** correspondem ao seu banco de dados, conforme o exemplo abaixo:
 
-`spring.datasource.username=seu_user_name`
-
+`spring.datasource.username=seu_user_name`<br>
 `spring.datasource.password=sua_senha`
 
 **Dica:** geralmente o username do MySQL é **root**
