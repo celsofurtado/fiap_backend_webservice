@@ -20,9 +20,8 @@ Quando você rodar a aplicação pela primeira vez, as tabelas serão criadas no
 
 Após a primeira execução você deverá inserir dados na tabela role, então, digite o seguinte comando no seu editor SQL preferido:
 
-`INSERT INTO role VALUES(1, 'ROLE_ADMIN');`
-
-`INSERT INTO role VALUES(2, 'ROLE_USER');`
+> `INSERT INTO role VALUES(1, 'ROLE_ADMIN');`<br>
+> `INSERT INTO role VALUES(2, 'ROLE_USER');`
 
 
 
