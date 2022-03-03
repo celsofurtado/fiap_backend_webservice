@@ -10,7 +10,7 @@
 
 `spring.datasource.username=seu_user_name`
 
-spring.datasource.password=sua_senha`
+`spring.datasource.password=sua_senha`
 
 **Dica:** geralmente o username do MySQL é **root**
 
