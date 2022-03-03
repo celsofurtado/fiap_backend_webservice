@@ -6,7 +6,7 @@
 - Utilize o [Intellij IDEA Community](https://www.jetbrains.com/pt-br/idea/download/#section=windows) para rodar a aplicação;
 - Você deve ter o [MySQL 8 ou superior](https://dev.mysql.com/downloads/installer/) instalado no seu PC;
 - Crie um banco de dados com o nome **db_fiap** no MySQL;
-- Edite o arquivo `applications.properties` e garanta que o **username** e **password** correspondem ao seu banco de dados, conforme o exemplo abaixo:
+- Edite o arquivo `application.properties` e garanta que o **username** e **password** correspondem ao seu banco de dados, conforme o exemplo abaixo:
 
 > `spring.datasource.username=seu_user_name`<br>
 > `spring.datasource.password=sua_senha`
