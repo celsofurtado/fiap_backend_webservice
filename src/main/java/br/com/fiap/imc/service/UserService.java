@@ -59,7 +59,14 @@ public class UserService {
         User actualUser = userRepository.findById(userId).get();
 
         if (actualUser != null) {
-            BeanUtils.copyProperties(user, actualUser, "userId");
+
+            System.out.println("***********************************************");
+            System.out.println(user.toString());
+            System.out.println("***********************************************");
+
+            BeanUtils.copyProperties(user, actualUser, "userId", "password");
+            System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+            System.out.print(actualUser.toString());
             userRepository.save(actualUser);
             return actualUser;
         }

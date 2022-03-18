@@ -67,8 +67,12 @@ public class User implements UserDetails {
     }
 
     public String getPassword() {
+
         return password;
+
     }
+
+
 
     @Override
     public String getUsername() {
@@ -96,7 +100,10 @@ public class User implements UserDetails {
     }
 
     public void setPassword(String password) {
+
+        System.out.println("///////////////////////////////" + password);
         this.password = new BCryptPasswordEncoder().encode(password);
+
     }
 
     public int getWeight() {
@@ -139,4 +146,5 @@ public class User implements UserDetails {
                 ", height=" + height +
                 '}';
     }
+
 }
